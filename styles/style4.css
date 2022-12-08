@@ -1,0 +1,24 @@
+
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Silkscreen&family=Zilla+Slab&display=swap');
+
+html{
+    background-color:#CCCCFF ;
+}
+
+
+
+.main-header-titles h1{
+    font-family: 'Zilla+Slab', sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.main-header-titles img{
+    width: 700px;
+    height: 500px;
+    margin-top: 50px; 
+}
+
+

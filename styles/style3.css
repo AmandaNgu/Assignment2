@@ -1,0 +1,97 @@
+
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Silkscreen&family=Zilla+Slab&display=swap');
+
+html, body,main, header{
+    height: 100%;
+    
+}
+html{
+    background-color: rgb(67, 97, 74);
+}
+
+.main-header-titles{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    color:#fff;
+    
+}
+.main-header-titles h1{
+    font-family: 'Silkscreen',sans-serif;
+    font-size: 50px;
+    text-shadow: 10px 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.main-header-titles h2{
+    font-family:'Zilla+slab', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -600px;
+}
+.main-header-titles p{
+    font-family:'Zilla+slab', serif;
+    margin: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+}
+.main-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    float: center;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    color:#fff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -400px;
+}
+
+.main-section legend{
+    font-family: 'Gemunu+Libre', sans-serif;
+    color: black;
+    background-color: bisque;
+}
+
+
+
+/*Define the Nav */
+#main-nav{
+    width:100%;
+    height: 64px;
+    background-color:rgba(0,0,0, 0.5);
+    font-family:'Silkscreen', sans-serif;
+
+}
+
+#main-nav ul{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav ul li{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#main-nav ul li a{
+    padding: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    transition:0.5s;
+
+}
+#main-nav ul li a:hover{
+    background-color:rgba(255,255,255,0.25);
+    transition:0.5s;
+}
+
